@@ -45,19 +45,10 @@
 % Fonts %
 %%%%%%%%%
 
-\RequirePackage[quiet]{fontspec}
 \RequirePackage[math-style=TeX]{unicode-math}
 
 \RequirePackage[activate={true,nocompatibility},final,factor=1100,stretch=10,shrink=10,expansion=false,verbose=silent]{microtype}
 
-\newfontfamily\bodyfont[]{Helvetica Neue}
-\newfontfamily\thinfont[]{Helvetica Neue UltraLight}
-\newfontfamily\headingfont[]{Helvetica Neue Condensed Bold}
-
-\defaultfontfeatures{Mapping=tex-text}
-\setmainfont[Mapping=tex-text, Color=textcolor]{Helvetica Neue Light}
-
-\setmathfont{XITS Math}
 \RequirePackage{xltxtra}
 
 %%%%%%%%%%
@@ -181,8 +172,6 @@
 %%%%%%%%%%%%%%%%
 % Social icons %
 %%%%%%%%%%%%%%%%
-
-\RequirePackage{fontawesome}
 
 % Add instagram logo to fontawesome
 \expandafter\def\csname faicon@instagram\endcsname           {\symbol{"F16D}}  \def\faInstagramSquare {{\FA\csname faicon@instagram\endcsname}}
