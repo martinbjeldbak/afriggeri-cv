@@ -1,6 +1,8 @@
-# Martin's fork of [afriggeri/cv](https://github.com/afriggeri/cv).
+# Martin's fork of the [afriggeri/cv](https://github.com/afriggeri/cv) LaTeX document class.
 
-This fork does the following:
+See usage of this document class in my CV repository at [martinbjeldbak/cv](https://github.com/martinbjeldbak/cv).
+
+This fork makes the following changes to afriggeri's document class:
 - Loads the [`fontawesome`](https://www.ctan.org/tex-archive/fonts/fontawesome) LaTeX package to support social icons
 - Loads the [`microtype`](https://www.ctan.org/pkg/microtype) package with options for XeTeX
 - Loads the [`polyglossia`](https://www.ctan.org/pkg/polyglossia) package
